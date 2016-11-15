@@ -1,4 +1,69 @@
 ---
-layout: home
-author_profile: false
+title: "Web Wide Matrix homepage"
+layout: splash
+permalink: /
+date: 2016-11-10T06:00:00-00:00
+header:
+  overlay_color: "#000"
+  overlay_filter: 0.5
+  #overlay_filter: rgba(0, 255, 150, 0.5)
+  overlay_image: /assets/images/unsplash.jpg
+  cta_label: "Read more"
+  cta_url: "https://github.com/mmistakes/minimal-mistakes/"
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+excerpt: "The existing interface of the Web consumes all of our time yet without really letting us leverage the full value buried inside it. We need a whole new medium to free up our time while maximizing the value we create from the Web."
+intro:
+  - excerpt: 'The Web Wide Matrix is an open-source initiative to build a consumption layer over the web: standard infrastructure & ecosystem providing an **Organized Space** interface to the **Assorted Feeds** arriving from the Web'
+feature_row:
+  - image_path: assets/images/twitter-feed-multi-column.png
+    alt: "placeholder image 1"
+    title: "The problem"
+    excerpt: "Each day you receive hundreds or thousands of content items from feeds you subscribe to. You go over them one by one, waiting for the ones you want to read."
+  - image_path: /assets/images/baggage-carousel-empty.jpg
+    alt: "placeholder image 2"
+    title: "The matrix model"
+    excerpt: "That's just fine if you have all the time in the world & just looking for some entertainment & don't care that article/email/slack message/tweet #7564 had information that could have changed your life if you'd have waited for it."
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+  - image_path: /assets/images/supermarket.jpg
+    title: "The architecture"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+feature_row2:
+  - image_path: /assets/images/twitter-feed-multi-column.png
+    alt: "twitter feed"
+    title: "Each day you receive thousands of content items from feeds you subscribe to."
+    excerpt: 'You go over them one by one, waiting for the ones you want to read.'
+    #url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+feature_row3:
+  - image_path: /assets/images/baggage-carousel-empty.jpg
+    alt: "baggage carousel"
+    title: "That's just fine if you have all the time in the world"
+    excerpt: "just looking for some entertainment & don't care that article/email/slack message/tweet #7564 had information that could have changed your life if you'd have waited for it."
+    #url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+feature_row4:
+  - image_path: /assets/images/supermarket.jpg
+    alt: "supermarket"
+    title: "What if you could browse through all of your feeds as one organized space"
+    excerpt: 'allowing you to find & discover the information you want in a snap, without missing anything?'
+    #url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
 ---
+
+
+
+
+{% include feature_row id="feature_row2" type="left" %}
+
+{% include feature_row id="feature_row3" type="right" %}
+
+{% include feature_row id="feature_row4" type="left" %}
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
