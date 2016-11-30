@@ -2,3 +2,5 @@
 main:
   - title: "Developers"
     url: /developers
+  - title: "Specs"
+    url: /specs
