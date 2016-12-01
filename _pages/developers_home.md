@@ -47,7 +47,7 @@ This organization will define the specs for the Matrix & deliver the initial fra
 
 ### Organization structure
 
-We believe in self-organizing teams & holocracy. The organization behind the Matrix is using an experimental structure called [Groupoid](https://dibau.wordpress.com/2016/11/30/groupoid-organization-structure/).
+We believe in self-organizing teams & holacracy. The organization behind the Matrix is using an experimental structure called [Groupoid](https://dibau.wordpress.com/2016/11/30/groupoid-organization-structure/).
 
 ### Join us
 
