@@ -2,5 +2,22 @@
 main:
   - title: "Developers"
     url: /developers
-  - title: "Specs"
-    url: /specs
+
+
+dev_docs:
+  - title: Getting Started
+    children:
+      - title: "Github POC"
+        url: http://github.com/dibaunaumh/fcs-skateboard
+      - title: "Roadmap"
+        url: /developers#roadmap
+      - title: "Join us"
+        url: /developers#join-us
+
+
+  - title: Learn more
+    children:
+      - title: "How dows it work"
+        url: /developers#how-does-it-work
+      - title: "Architecture overview"
+        url: /developers#architecture-overview
