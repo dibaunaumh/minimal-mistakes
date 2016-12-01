@@ -11,22 +11,22 @@ header:
   cta_label: "Learn more"
   cta_url: "#about_text"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Information overload can't be fixed in the current interface of the Web. We need a whole new medium, so that *we'll* consume all of the information, without *it* consuming all of our time."
+excerpt: "Information overload can't be fixed in the current interface of the Web. We need a whole new medium, so that *we'll* consume all of the information, instead of *it* consuming all of our time."
 intro:
   - excerpt: "The Web Wide Matrix is an open-source initiative to build a consumption layer over the web. Its standard infrastructure & ecosystem will provide an **Organized Space** interface to any **Assorted Feed** arriving from the Web."
-video_row:
-  - video_id: "-lwkoSfXUGs"
-    alt: "The Problem"
-    title: "The Problem"
-    excerpt: "Why do we need the Web Wide Matrix"
-  - video_id: "nl1YBWmwOTM"
-    alt: "The Matrix Medium"
-    title: "The Matrix Medium"
-    excerpt: "What is the Wed Wide Matrix"
-  - video_id: "1T1sHIlxK-w"
-    alt: "The Matrix Architecture"
-    title: "The Matrix Architecture"
-    excerpt: "The infrastructure and ecosystem underlying the Web Wide Matrix"
+feature_row:
+  - image_path: /assets/images/screenshot1.png
+    alt: "Matrix Browser"
+    title: "Matrix Browser"
+    excerpt: "A 3D VR app to browse thru organized spaces"
+  - image_path: /assets/images/matrix-cloud.png
+    alt: "Matrix Cloud"
+    title: "Matrix Cloud"
+    excerpt: "A composite storage layer modelled after spatial 3D environment"
+  - image_path: /assets/images/matrix-hovercraft.png
+    alt: "Matrix Hovercraft"
+    title: "Matrix Hovercraft"
+    excerpt: "A personal software container for converting content feeds into organized spaces"
 feature_row2:
   - image_path: /assets/images/twitter-feed-multi-column.png
     alt: "twitter feed"
@@ -66,8 +66,6 @@ feature_row4:
 <a name="about_text" width="270px"/>
 {% include feature_row id="intro" type="center" %}
 
-<!--{% include video_row %}-->
-
 
 <h2>The problem</h2>
 {% include youtube.html id="-lwkoSfXUGs" %}
@@ -79,4 +77,16 @@ feature_row4:
 
 <br><hr>
 
-<a href="/developers">Developers section</a>
+<div align="center">Current active projects:</div>
+<br/>
+
+{% include feature_row %}
+
+<a href="/developers">More info in the developers section</a>.
+
+<br><hr>
+
+<!--<form action="https://formspree.io/dibaunaumh@gmail.com"-->
+      <!--method="POST">-->
+  <!--<div><input id="email" size="32" type="email" placeholder="Your email" name="_replyto"><input type="submit" value="Sign-up for the beta program"></div>-->
+<!--</form>-->
