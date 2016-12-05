@@ -5,19 +5,23 @@ main:
 
 
 dev_docs:
-  - title: Getting Started
+  - title: About
+    url: /developers#about
     children:
-      - title: "Github POC"
-        url: http://github.com/dibaunaumh/fcs-skateboard
       - title: "Roadmap"
         url: /developers#roadmap
-      - title: "Join us"
-        url: /developers#join-us
-
-
-  - title: Learn more
-    children:
+      - title: "Github POC"
+        url: https://github.com/dibaunaumh/webwidematrix-poc
       - title: "How dows it work"
         url: /developers#how-does-it-work
       - title: "Architecture overview"
         url: /developers#architecture-overview
+
+
+  - title: The team
+    url: /developers#the-team
+    children:
+      - title: "Organization structure"
+        url: /developers#organization-structure
+      - title: "Join us"
+        url: /developers#join-us

@@ -2,14 +2,13 @@
 title: "Developers - Web Wide Matrix"
 layout: single
 permalink: /developers
-date: 2016-12-01T07:15:00-00:00
+date: 2016-12-05T07:25:00-00:00
 sidebar:
   nav: "dev_docs"
 ---
 
-{% include toc %}
 
-## Welcome
+## About
 The Wed-Wide-Matrix is a non-profit open-source initiative. Our goal is to fix the problem of information overload
 by introducing a new medium for effectively consuming information.
 
@@ -23,7 +22,7 @@ need a common abstraction to tie them all together to make them effective & ubiq
   <img src="{{ '/assets/images/roadmap.png' | absolute_url }}" alt="fork Minimal Mistakes">
 </figure>
 
-We're currently working on a [POC](http://github.com/dibaunaumh/fcs-skateboard) of the Matrix cloud & hovercraft.
+We're currently working on a [proof-of-concept](https://github.com/dibaunaumh/webwidematrix-poc) of the Matrix cloud & hovercraft.
 
 The 1st milestone delivery of the matrix is planned for early 2017.
 
