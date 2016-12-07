@@ -15,27 +15,31 @@ by introducing a new medium for effectively consuming information.
 The technology bits for processing content feeds into easily consumable organized spaces already exist today, but we
 need a common abstraction to tie them all together into an effective & ubiquitous solution.
 
+<hr/>
 
 ### Roadmap
 
 <figure>
-  <img src="{{ '/assets/images/roadmap.png' | absolute_url }}" alt="fork Minimal Mistakes">
+  <a href="/assets/images/roadmap.png"><img src="{{ '/assets/images/roadmap.png' | absolute_url }}" alt="Roadmap"></a>
 </figure>
 
 We're currently working on a [proof-of-concept](https://github.com/WebWideMatrix/webwidematrix-poc) of the Matrix cloud & hovercraft.
 
 The 1st milestone delivery of the matrix is planned for early 2017.
 
+<hr/>
 
 ### How does it work?
 
 {% include youtube.html id="1T1sHIlxK-w" %}
 
+<hr/>
 
 ### Architecture overview
 
 {% include youtube.html id="Ly75njf0drk" %}
 
+<hr/>
 
 
 ## The team
