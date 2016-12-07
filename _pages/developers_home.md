@@ -46,8 +46,8 @@ This organization will define the specs for the Matrix & deliver the initial fra
 
 ### Join us
 
-We're currently looking for more engineers (`Python`, `Scala` & `Unity3D`), architects, designers & thought leaders.
-Join the core team to help us solve the problem of information-overload & impact the lives of millions of people.
+We're currently looking for engineers (`Python`, `Scala` & `Unity3D`), architects & artists to join our core team.
+Join us to help solve the problem of information-overload & impact the lives of millions of people.
 
 <form id="developer-signup-form" action="//formspree.io/dibaunaumh@gmail.com" method="post">
 	<input id="email" size="32" type="email" placeholder="Your email" name="_replyto" required>
