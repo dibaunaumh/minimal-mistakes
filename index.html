@@ -12,7 +12,6 @@ header:
   cta_url: "#about_text"
 excerpt: "Information overload can't be fixed in the current interface of the Web. We need a whole new medium, so that *we'll* consume all of the information, instead of *it* consuming all of our time."
 intro:
-  - image_path: /assets/images/fcs.png
   - excerpt: "The Web Wide Matrix is an open-source initiative to build a consumption layer over the web: a standard infrastructure & ecosystem providing an **Organized Space** interface to any **Assorted Feed** arriving from the Web."
 feature_row:
   - image_path: /assets/images/screenshot1.png
@@ -51,6 +50,8 @@ feature_row4:
     #url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--inverse"
+continue_to_developers:
+  - url: "/developers"
 ---
 
 
@@ -67,24 +68,17 @@ feature_row4:
 {% include feature_row id="intro" type="center" %}
 
 
-{% include youtube.html id="-lwkoSfXUGs" %}
+{% include youtube.html title="The Problem:" id="-lwkoSfXUGs" %}
 
-<br><hr>
+<hr>
 
-{% include youtube.html id="nl1YBWmwOTM" %}
+{% include youtube.html title="The Matrix Medium:" id="nl1YBWmwOTM" %}
 
-<br><hr>
+<hr>
 
-<div align="center">Current active projects:</div>
-<br/>
+<h1 align="center">Active projects</h1>
+
 
 {% include feature_row %}
 
-<a href="/developers">Learn more in the developers section</a>
-
-<br><hr>
-
-<!--<form action="https://formspree.io/dibaunaumh@gmail.com"-->
-      <!--method="POST">-->
-  <!--<div><input id="email" size="32" type="email" placeholder="Your email" name="_replyto"><input type="submit" value="Sign-up for the beta program"></div>-->
-<!--</form>-->
+{% include feature_row id="continue_to_developers" type="center" %}

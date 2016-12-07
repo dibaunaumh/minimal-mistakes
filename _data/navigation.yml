@@ -21,7 +21,5 @@ dev_docs:
   - title: The team
     url: /developers#the-team
     children:
-      - title: "Organization structure"
-        url: /developers#organization-structure
       - title: "Join us"
         url: /developers#join-us

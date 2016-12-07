@@ -13,7 +13,7 @@ The Wed-Wide-Matrix is a non-profit open-source initiative. Our goal is to fix t
 by introducing a new medium for effectively consuming information.
 
 The technology bits for processing content feeds into easily consumable organized spaces already exist today, but we
-need a common abstraction to tie them all together to make them effective & ubiquitous.
+need a common abstraction to tie them all together into an effective & ubiquitous solution.
 
 
 ### Roadmap
@@ -40,20 +40,19 @@ The 1st milestone delivery of the matrix is planned for early 2017.
 
 ## The team
 
-We're currently a small team of engineers, based in Boston Massachusetts, but looking to grow into a global organization.
-This organization will define the specs for the Matrix & deliver the initial frameworks & implementations of the different components.
+We're currently a small team of engineers, based in Boston USA, but hoping to grow into a global open-source organization.
+This organization will define the specs for the Matrix & deliver the initial frameworks & implementations of its different components.
 
-
-### Organization structure
-
-We believe in self-organizing teams & holacracy. The organization behind the Matrix is using an experimental structure called [Groupoid](https://dibau.wordpress.com/2016/11/30/groupoid-organization-structure/).
 
 ### Join us
 
-We're currently looking for more engineers (`Scala`, `Python`, `Unity3D`), architects, designers & thought leaders. Sign up to join the core team & help us impact the life of billions of people.
+We're currently looking for more engineers (`Python`, `Scala` & `Unity3D`), architects, designers & thought leaders.
+Join the core team to help us solve the problem of information-overload & impact the lives of millions of people.
 
-<form action="https://formspree.io/dibaunaumh@gmail.com" method="POST">
-  <input id="email" size="32" type="email" placeholder="Your email" name="_replyto"><input type="submit" value="Sign up">
+<form id="developer-signup-form" action="//formspree.io/dibaunaumh@gmail.com" method="post">
+	<input id="email" size="32" type="email" placeholder="Your email" name="_replyto" required>
+	<!-- CONFIG -->
+	<input type="hidden" name="_subject" value="New developer signed-up">
+	<!-- /CONFIG -->
+	<input class="submit" type="submit" value="Get in touch">
 </form>
-
-
