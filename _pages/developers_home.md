@@ -22,7 +22,7 @@ need a common abstraction to tie them all together into an effective & ubiquitou
   <img src="{{ '/assets/images/roadmap.png' | absolute_url }}" alt="fork Minimal Mistakes">
 </figure>
 
-We're currently working on a [proof-of-concept](https://github.com/dibaunaumh/webwidematrix-poc) of the Matrix cloud & hovercraft.
+We're currently working on a [proof-of-concept](https://github.com/WebWideMatrix/webwidematrix-poc) of the Matrix cloud & hovercraft.
 
 The 1st milestone delivery of the matrix is planned for early 2017.
 

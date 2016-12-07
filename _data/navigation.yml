@@ -11,7 +11,7 @@ dev_docs:
       - title: "Roadmap"
         url: /developers#roadmap
       - title: "Github POC"
-        url: https://github.com/dibaunaumh/webwidematrix-poc
+        url: https://github.com/WebWideMatrix/webwidematrix-poc
       - title: "How dows it work"
         url: /developers#how-does-it-work
       - title: "Architecture overview"
