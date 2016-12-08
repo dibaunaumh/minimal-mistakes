@@ -17,18 +17,6 @@ need a common abstraction to tie them all together into an effective & ubiquitou
 
 <hr/>
 
-### Roadmap
-
-<figure>
-  <a href="/assets/images/roadmap.png"><img src="{{ '/assets/images/roadmap.png' | absolute_url }}" alt="Roadmap"></a>
-</figure>
-
-We're currently working on a [proof-of-concept](https://github.com/WebWideMatrix/webwidematrix-poc) of the Matrix cloud & hovercraft.
-
-The 1st milestone delivery of the matrix is planned for early 2017.
-
-<hr/>
-
 ### How does it work?
 
 {% include youtube.html id="1T1sHIlxK-w" %}
@@ -44,8 +32,18 @@ The 1st milestone delivery of the matrix is planned for early 2017.
 
 ## The team
 
-We're currently a small team of engineers, based in Boston USA, but hoping to grow into a global open-source organization.
+We're currently a small team of engineers, based in the Boston area, but hoping to grow into a global open-source organization.
 This organization will define the specs for the Matrix & deliver the initial frameworks & implementations of its different components.
+
+### Our roadmap
+
+<figure>
+  <a href="/assets/images/roadmap.png"><img src="{{ '/assets/images/roadmap.png' | absolute_url }}" alt="Roadmap"></a>
+</figure>
+
+We're currently working on a [proof-of-concept](https://github.com/WebWideMatrix/webwidematrix-poc) of the Matrix cloud & hovercraft.
+
+The 1st milestone delivery of the matrix is planned for early 2017.
 
 
 ### Join us

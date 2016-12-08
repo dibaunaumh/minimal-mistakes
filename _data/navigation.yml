@@ -8,8 +8,6 @@ dev_docs:
   - title: About
     url: /developers#about
     children:
-      - title: "Roadmap"
-        url: /developers#roadmap
       - title: "Github POC"
         url: https://github.com/WebWideMatrix/webwidematrix-poc
       - title: "How dows it work"
@@ -21,5 +19,7 @@ dev_docs:
   - title: The team
     url: /developers#the-team
     children:
+      - title: "Our roadmap"
+        url: /developers#our-roadmap
       - title: "Join us"
         url: /developers#join-us
