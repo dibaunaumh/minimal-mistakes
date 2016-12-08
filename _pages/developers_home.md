@@ -1,8 +1,8 @@
 ---
-title: "Developers - Web Wide Matrix"
+title: "Web Wide Matrix introduction for developers"
 layout: single
 permalink: /developers
-date: 2016-12-05T07:25:00-00:00
+date: 2016-12-08T00:06:00-00:00
 sidebar:
   nav: "dev_docs"
 ---
