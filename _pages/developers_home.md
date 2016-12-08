@@ -33,7 +33,7 @@ need a common abstraction to tie them all together into an effective & ubiquitou
 ## The team
 
 We're currently a small team of engineers, based in the Boston area, but hoping to grow into a global open-source organization.
-This organization will define the specs for the Matrix & deliver the initial frameworks & implementations of its different components.
+This organization will define the specs of the Web-Wide-Matrix & deliver the initial frameworks & implementations.
 
 ### Our roadmap
 
