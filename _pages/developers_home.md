@@ -9,8 +9,8 @@ sidebar:
 
 
 ## About
-The Wed-Wide-Matrix is a non-profit open-source initiative. Our goal is to fix the problem of information overload
-by introducing a new medium for effectively consuming information.
+The Wed-Wide-Matrix is a non-profit open-source initiative. Our goal is to fix the problem of **information overload**
+by introducing a **new medium** for effectively consuming information.
 
 The technology bits for processing content feeds into easily consumable organized spaces already exist today, but we
 need a common abstraction to tie them all together into an effective & ubiquitous solution.
