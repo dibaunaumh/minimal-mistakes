@@ -51,10 +51,4 @@ The 1st milestone delivery of the matrix is planned for early 2017.
 We're currently looking for engineers (`Python`, `Scala` & `Unity3D`), architects & artists to join our core team.
 Join us to help solve the problem of information-overload & impact the lives of millions of people.
 
-<form id="developer-signup-form" action="//formspree.io/dibaunaumh@gmail.com" method="post">
-	<input id="email" size="32" type="email" placeholder="Your email" name="_replyto" required>
-	<!-- CONFIG -->
-	<input type="hidden" name="_subject" value="New developer signed-up">
-	<!-- /CONFIG -->
-	<input class="submit" type="submit" value="Get in touch">
-</form>
+{% include contact_form.html email="dibaunaumh@gmail.com" subject="WTF, someone filled the form!" %}
