@@ -18,14 +18,14 @@ need a common abstraction to tie them all together into an effective & ubiquitou
 <hr/>
 
 ### How does it work?
-
-{% include youtube.html id="1T1sHIlxK-w" %}
+<script async class="speakerdeck-embed" data-id="b9132c04089f46a299f5442517d51f79" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+{% include youtube-link.html id="1T1sHIlxK-w" %}
 
 <hr/>
 
 ### Architecture overview
-
-{% include youtube.html id="Ly75njf0drk" %}
+<script async class="speakerdeck-embed" data-id="661bad6e1e884f078bbeac6ea575c0dc" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+{% include youtube-link.html id="Ly75njf0drk" %}
 
 <hr/>
 
