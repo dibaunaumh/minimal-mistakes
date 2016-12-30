@@ -9,7 +9,7 @@
 locale                   : "en"
 title                    : "Web Wide Matrix"
 title_separator          : "-"
-name                     : "Wachowski groupoid"
+name                     : "The Wachowski groupoid"
 description              : "Homepage of the Web Wide Matrix: an initiative to create a consumption layer over the web"
 url                      : "http://webwidematrix.org"
 baseurl                  : # the subpath of your site, e.g. "/blog"

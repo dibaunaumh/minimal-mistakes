@@ -43,12 +43,12 @@ This organization will define the specs of the Web-Wide-Matrix & deliver the ini
 
 We're currently working on a [proof-of-concept](https://github.com/WebWideMatrix/webwidematrix-poc) of the Matrix cloud & hovercraft.
 
-The 1st milestone delivery of the matrix is planned for early 2017.
+The 1st milestone delivery of the matrix is planned for the 2nd half of 2017.
 
 
 ### Join us
 
-We're currently looking for engineers (`Python`, `Scala` & `Unity3D`), architects & artists to join our core team.
+We're currently looking for engineers (`Python`, `Elixir` & `Unity3D`), architects & artists to join our core team.
 Join us to help solve the problem of information-overload & impact the lives of millions of people.
 
 {% include contact_form.html email="dibaunaumh@gmail.com" subject="WTF, someone filled the form!" %}
