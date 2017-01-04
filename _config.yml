@@ -244,3 +244,19 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _mocks
+  - scope:
+      path: ""
+      type: mocks
+    values:
+      layout: single
+      author_profile: false
+      read_time: false
+      comments: # true
+      share: true
+      related: true
+
+collections:
+  mocks:
+    output: true
+    permalink: /:collection/:path/
