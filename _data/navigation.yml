@@ -13,13 +13,17 @@ dev_docs:
       - title: "Architecture overview"
         url: /developers#architecture-overview
 
+  - title: For developers
+    children:
+      - title: "POC on GitHub"
+        url: https://github.com/WebWideMatrix/webwidematrix-poc
+      - title: "UX Mocks"
+        url: /ux-mocks
 
   - title: The team
     url: /developers#the-team
     children:
       - title: "Our roadmap"
         url: /developers#our-roadmap
-      - title: "Github POC"
-        url: https://github.com/WebWideMatrix/webwidematrix-poc
       - title: "Join us"
         url: /developers#join-us
