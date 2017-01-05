@@ -3,42 +3,97 @@ title: "UX Mocks"
 layout: single
 permalink: /ux-mocks
 excerpt: "These are some initial UX mocks of an end-to-end flow."
-sidebar:
-  - title: "Role"
-    image: http://placehold.it/350x250
-    image_alt: "logo"
-    text: "Designer, Front-End Developer"
-  - title: "Responsibilities"
-    text: "Reuters try PR stupid commenters should isn't a business model"
 gallery:
   - url: /assets/images/ux-mocks/drawings/1_web.png
-    image_path: /assets/images/ux-mocks/drawings/thumbnails/1-th.jpg
-    alt: "01 - Web download page"
+    image_path: /assets/images/ux-mocks/drawings/1_web.png
+    alt: "1 - Web download page"
   - url: /assets/images/ux-mocks/drawings/2_matrix.png
-    image_path: /assets/images/ux-mocks/drawings/thumbnails/2-th.jpg
-    alt: "02 - Matrix login screen"
+    image_path: /assets/images/ux-mocks/drawings/2_matrix.png
+    alt: "2 - Matrix login screen"
   - url: /assets/images/ux-mocks/drawings/3.png
-    image_path: /assets/images/ux-mocks/drawings/thumbnails/3-th.jpg
-    alt: "03 - Matrix login verify screen"
+    image_path: /assets/images/ux-mocks/drawings/3.png
+    alt: "3 - Matrix login verify screen"
   - url: /assets/images/ux-mocks/drawings/4.png
-    image_path: /assets/images/ux-mocks/drawings/thumbnails/4-th.jpg
-    alt: "04 - Matrix login verify screen"
+    image_path: /assets/images/ux-mocks/drawings/4.png
+    alt: "4 - Matrix welcome screen"
   - url: /assets/images/ux-mocks/drawings/5.png
-    image_path: /assets/images/ux-mocks/drawings/thumbnails/5-th.jpg
-    alt: "04 - Matrix login verify screen"
+    image_path: /assets/images/ux-mocks/drawings/5.png
+    alt: "5 - Matrix welcome screen - screen provider"
   - url: /assets/images/ux-mocks/drawings/6.png
-    image_path: /assets/images/ux-mocks/drawings/thumbnails/6-th.jpg
-    alt: "04 - Matrix login verify screen"
+    image_path: /assets/images/ux-mocks/drawings/6.png
+    alt: "6 - Matrix ground floor"
   - url: /assets/images/ux-mocks/drawings/7.png
-    image_path: /assets/images/ux-mocks/drawings/thumbnails/7-th.jpg
-    alt: "04 - Matrix login verify screen"
+    image_path: /assets/images/ux-mocks/drawings/7.png
+    alt: "7 - Service provider info"
   - url: /assets/images/ux-mocks/drawings/8.png
-    image_path: /assets/images/ux-mocks/drawings/thumbnails/8-th.jpg
-    alt: "04 - Matrix login verify screen"
+    image_path: /assets/images/ux-mocks/drawings/8.png
+    alt: "8 - Service provider building - choose plan"
+  - url: /assets/images/ux-mocks/drawings/8.1.png
+    image_path: /assets/images/ux-mocks/drawings/8.1.png
+    alt: "8.1 - Basic plan info"
+  - url: /assets/images/ux-mocks/drawings/8.2.png
+    image_path: //assets/images/ux-mocks/drawings/8.2.png
+    alt: "8.2 - Basic plan setup"
+  - url: /assets/images/ux-mocks/drawings/8.3.png
+    image_path: /assets/images/ux-mocks/drawings/8.3.png
+    alt: "8.3 - Basic plan setup done"
+  - url: /assets/images/ux-mocks/drawings/9.png
+    image_path: /assets/images/ux-mocks/drawings/9.png
+    alt: "9 - Personal building empty"
+  - url: /assets/images/ux-mocks/drawings/10.png
+    image_path: /assets/images/ux-mocks/drawings/10.png
+    alt: "10 - Content feeds machine empty"
+  - url: /assets/images/ux-mocks/drawings/10.1.png
+    image_path: /assets/images/ux-mocks/drawings/10.1.png
+    alt: "10.1 - Choose content feed"
+  - url: /assets/images/ux-mocks/drawings/10.2.png
+    image_path: /assets/images/ux-mocks/drawings/10.2.png
+    alt: "10.2 - Choose training course"
+  - url: /assets/images/ux-mocks/drawings/10.3.png
+    image_path: /assets/images/ux-mocks/drawings/10.3.png
+    alt: "10.3 - Authorize content feed"
+  - url: /assets/images/ux-mocks/drawings/11.png
+    image_path: /assets/images/ux-mocks/drawings/11.png
+    alt: "11 - Content feeds machine with 1 content feed"
+  - url: /assets/images/ux-mocks/drawings/12.png
+    image_path: /assets/images/ux-mocks/drawings/12.png
+    alt: "12 - Building created for Today's feeds"
+  - url: /assets/images/ux-mocks/drawings/13.png
+    image_path: /assets/images/ux-mocks/drawings/13.png
+    alt: "13 - Today's feeds building info"
+  - url: /assets/images/ux-mocks/drawings/14.png
+    image_path: /assets/images/ux-mocks/drawings/14.png
+    alt: "14 - Inside Today's feeds building - level 0 - posts"
+  - url: /assets/images/ux-mocks/drawings/15.png
+    image_path: /assets/images/ux-mocks/drawings/15.png
+    alt: "15 - Inside Today's feeds building - level 0 - zoom on post"
+  - url: /assets/images/ux-mocks/drawings/16.png
+    image_path: /assets/images/ux-mocks/drawings/16.png
+    alt: "16 - Inside Today's feeds building - level 0 - post info"
+  - url: /assets/images/ux-mocks/drawings/17.png
+    image_path: /assets/images/ux-mocks/drawings/17.png
+    alt: "17 - Inside Today's feeds building - level 0 - resident hackers"
+  - url: /assets/images/ux-mocks/drawings/18.png
+    image_path: /assets/images/ux-mocks/drawings/18.png
+    alt: "18 - Inside Today's feeds building - level 1 - articles"
+  - url: /assets/images/ux-mocks/drawings/19.png
+    image_path: /assets/images/ux-mocks/drawings/19.png
+    alt: "19 - Inside Today's feeds building - level 2 - topics"
+  - url: /assets/images/ux-mocks/drawings/20.png
+    image_path: /assets/images/ux-mocks/drawings/20.png
+    alt: "20 - Inside Today's feeds building - level 3 - organized space"
 ---
 
-Pictures of Goats section West Seattle Blog dingbat newspaper rubber cement Google+ newsroom cafe news.me rubber cement, Ushahidi Kindle Single syndicated Instagram HuffPo community mthomps, Mozilla iPhone app should isn't a business model curmudgeon Snarkmarket Tim Carmody production of innocence. Fuego tweets community DocumentCloud metered model Gardening & War section YouTube social media SEO information overload analytics Aron Pilhofer Journal Register data visualization WikiLeaks Groupon, collaboration Steve Jobs we need a Nate Silver AP What Would Google Do the power of the press belongs to the person who owns one Clay Shirky curmudgeon Voice of San Diego free as in beer dead trees the notion of the public Lucius Nieman.
+These are some mock screen drawings depicting the user experience of onboarding & using the Web Wide Matrix:
+<li> Downloading the Matrix Browser
+<li> Login in the Matrix Browser
+<li> Choosing a Matrix service provider
+<li> Choosing a plan
+<li> Setting up a content feed
+<li> Viewing the raw feed posts
+<li> Viewing the articles in the feed
+<li> Viewing the topics in the feed
+<li> Viewing the feed as an organized space
 
 {% include gallery caption="UX Mock drawings" %}
 
-hackgate copyright Lucius Nieman CNN leaves it there right-sizing a giant stack of newspapers that you'll never read net neutrality algorithms RT algorithms TechCrunch 5% corruption, horse-race coverage Gardening & War section CTR try PR CPC David Cohn shoot a photo algorithms content is king Android Snarkmarket crowdfunding, Fuego Twitter topples dictators YouTube abundance WordPress Reuters try PR stupid commenters should isn't a business model bringing a tote bag to a knife fight.
