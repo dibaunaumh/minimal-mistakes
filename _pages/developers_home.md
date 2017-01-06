@@ -2,7 +2,7 @@
 title: "Web Wide Matrix introduction for developers"
 layout: single
 permalink: /developers
-date: 2016-12-29T00:06:00-00:00
+date: 2017-01-06T00:06:00-00:00
 sidebar:
   nav: "dev_docs"
 ---
@@ -10,7 +10,7 @@ sidebar:
 
 ## About
 The Wed-Wide-Matrix is a non-profit open-source initiative. Our goal is to fix the problem of **information overload**
-by introducing a **new medium** for effectively consuming information.
+by introducing a **new medium** for effectively consuming information, powered by a new **processing layer** over the web.
 
 The technology bits for processing content feeds into easily consumable organized spaces already exist today, but we
 need a common abstraction to tie them all together into an effective & ubiquitous solution.
@@ -38,7 +38,7 @@ This organization will define the specs of the Web-Wide-Matrix & deliver the ini
 ### Our roadmap
 
 <figure>
-  <a href="/assets/images/roadmap.png"><img src="{{ '/assets/images/roadmap.png' | absolute_url }}" alt="Roadmap"></a>
+  <a href="/assets/images/roadmap-jan-2017.png"><img src="{{ '/assets/images/roadmap-jan-2017.png' | absolute_url }}" alt="Roadmap"></a>
 </figure>
 
 We're currently working on a [proof-of-concept](https://github.com/WebWideMatrix/webwidematrix-poc) of the Matrix cloud & hovercraft.
