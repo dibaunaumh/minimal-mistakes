@@ -5,40 +5,40 @@ permalink: /ux-mocks
 excerpt: "These are some initial UX mocks of an end-to-end flow."
 gallery1:
   - url: /assets/images/ux-mocks/drawings/1_web.png
-    image_path: /assets/images/ux-mocks/drawings/1_web.png
+    image_path: /assets/images/ux-mocks/drawings/1_web_th.png
     alt: "1 - Web download page"
 gallery2:
   - url: /assets/images/ux-mocks/drawings/2_matrix.png
-    image_path: /assets/images/ux-mocks/drawings/2_matrix.png
+    image_path: /assets/images/ux-mocks/drawings/2_matrix_th.png
     alt: "2 - Matrix login screen"
   - url: /assets/images/ux-mocks/drawings/3.png
-    image_path: /assets/images/ux-mocks/drawings/3.png
+    image_path: /assets/images/ux-mocks/drawings/3_th.png
     alt: "3 - Matrix login verify screen"
 gallery3:
   - url: /assets/images/ux-mocks/drawings/4.png
-    image_path: /assets/images/ux-mocks/drawings/4.png
+    image_path: /assets/images/ux-mocks/drawings/4_th.png
     alt: "4 - Matrix welcome screen"
   - url: /assets/images/ux-mocks/drawings/5.png
-    image_path: /assets/images/ux-mocks/drawings/5.png
+    image_path: /assets/images/ux-mocks/drawings/5_th.png
     alt: "5 - Matrix welcome screen - screen provider"
   - url: /assets/images/ux-mocks/drawings/6.png
-    image_path: /assets/images/ux-mocks/drawings/6.png
+    image_path: /assets/images/ux-mocks/drawings/6_th.png
     alt: "6 - Matrix ground floor"
   - url: /assets/images/ux-mocks/drawings/7.png
-    image_path: /assets/images/ux-mocks/drawings/7.png
+    image_path: /assets/images/ux-mocks/drawings/7_th.png
     alt: "7 - Service provider info"
 gallery4:
   - url: /assets/images/ux-mocks/drawings/8.png
-    image_path: /assets/images/ux-mocks/drawings/8.png
+    image_path: /assets/images/ux-mocks/drawings/8_th.png
     alt: "8 - Service provider building - choose plan"
   - url: /assets/images/ux-mocks/drawings/8.1.png
-    image_path: /assets/images/ux-mocks/drawings/8.1.png
+    image_path: /assets/images/ux-mocks/drawings/8.1_th.png
     alt: "8.1 - Basic plan info"
   - url: /assets/images/ux-mocks/drawings/8.2.png
-    image_path: //assets/images/ux-mocks/drawings/8.2.png
+    image_path: //assets/images/ux-mocks/drawings/8.2_th.png
     alt: "8.2 - Basic plan setup"
   - url: /assets/images/ux-mocks/drawings/8.3.png
-    image_path: /assets/images/ux-mocks/drawings/8.3.png
+    image_path: /assets/images/ux-mocks/drawings/8.3_th.png
     alt: "8.3 - Basic plan setup done"
 gallery5:
   - url: /assets/images/ux-mocks/drawings/9.png
