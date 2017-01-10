@@ -42,54 +42,54 @@ gallery4:
     alt: "8.3 - Basic plan setup done"
 gallery5:
   - url: /assets/images/ux-mocks/drawings/9.png
-    image_path: /assets/images/ux-mocks/drawings/9.png
+    image_path: /assets/images/ux-mocks/drawings/9_th.png
     alt: "9 - Personal building empty"
   - url: /assets/images/ux-mocks/drawings/10.png
-    image_path: /assets/images/ux-mocks/drawings/10.png
+    image_path: /assets/images/ux-mocks/drawings/10_th.png
     alt: "10 - Content feeds machine empty"
   - url: /assets/images/ux-mocks/drawings/10.1.png
-    image_path: /assets/images/ux-mocks/drawings/10.1.png
+    image_path: /assets/images/ux-mocks/drawings/10.1_th.png
     alt: "10.1 - Choose content feed"
   - url: /assets/images/ux-mocks/drawings/10.2.png
-    image_path: /assets/images/ux-mocks/drawings/10.2.png
+    image_path: /assets/images/ux-mocks/drawings/10.2_th.png
     alt: "10.2 - Choose training course"
   - url: /assets/images/ux-mocks/drawings/10.3.png
-    image_path: /assets/images/ux-mocks/drawings/10.3.png
+    image_path: /assets/images/ux-mocks/drawings/10.3_th.png
     alt: "10.3 - Authorize content feed"
   - url: /assets/images/ux-mocks/drawings/11.png
-    image_path: /assets/images/ux-mocks/drawings/11.png
+    image_path: /assets/images/ux-mocks/drawings/11_th.png
     alt: "11 - Content feeds machine with 1 content feed"
 gallery6:
   - url: /assets/images/ux-mocks/drawings/12.png
-    image_path: /assets/images/ux-mocks/drawings/12.png
+    image_path: /assets/images/ux-mocks/drawings/12_th.png
     alt: "12 - Building created for Today's feeds"
   - url: /assets/images/ux-mocks/drawings/13.png
-    image_path: /assets/images/ux-mocks/drawings/13.png
+    image_path: /assets/images/ux-mocks/drawings/13_th.png
     alt: "13 - Today's feeds building info"
 gallery7:
   - url: /assets/images/ux-mocks/drawings/14.png
-    image_path: /assets/images/ux-mocks/drawings/14.png
+    image_path: /assets/images/ux-mocks/drawings/14_th.png
     alt: "14 - Inside Today's feeds building - level 0 - posts"
   - url: /assets/images/ux-mocks/drawings/15.png
-    image_path: /assets/images/ux-mocks/drawings/15.png
+    image_path: /assets/images/ux-mocks/drawings/15_th.png
     alt: "15 - Inside Today's feeds building - level 0 - zoom on post"
   - url: /assets/images/ux-mocks/drawings/16.png
-    image_path: /assets/images/ux-mocks/drawings/16.png
+    image_path: /assets/images/ux-mocks/drawings/16_th.png
     alt: "16 - Inside Today's feeds building - level 0 - post info"
   - url: /assets/images/ux-mocks/drawings/17.png
-    image_path: /assets/images/ux-mocks/drawings/17.png
+    image_path: /assets/images/ux-mocks/drawings/17_th.png
     alt: "17 - Inside Today's feeds building - level 0 - resident hackers"
   - url: /assets/images/ux-mocks/drawings/18.png
-    image_path: /assets/images/ux-mocks/drawings/18.png
+    image_path: /assets/images/ux-mocks/drawings/18_th.png
     alt: "18 - Inside Today's feeds building - level 1 - articles"
   - url: /assets/images/ux-mocks/drawings/19.png
-    image_path: /assets/images/ux-mocks/drawings/19.png
+    image_path: /assets/images/ux-mocks/drawings/19_th.png
     alt: "19 - Inside Today's feeds building - level 2 - topics"
 gallery8:
   - url: /assets/images/ux-mocks/drawings/20.png
-    image_path: /assets/images/ux-mocks/drawings/20.png
+    image_path: /assets/images/ux-mocks/drawings/20_th.png
     alt: "20 - Inside Today's feeds building - level 3 - organized space"
-date: 2017-01-06T00:06:00-00:00
+date: 2017-01-09T00:06:00-00:00
 sidebar:
   nav: "dev_docs"
 ---
