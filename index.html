@@ -2,7 +2,7 @@
 title: "Web Wide Matrix"
 layout: splash
 permalink: /
-date: 2016-11-28T06:00:00-00:00
+date: 2017-5-09T06:00:00-00:00
 header:
   overlay_color: "#000"
   overlay_filter: 0.5
@@ -13,19 +13,30 @@ header:
 excerpt: "Information overload can't be fixed in the current interface of the Web. We need a whole new medium, so that *WE* will consume all of the information, instead of *IT* consuming all of our time."
 
 
-feature_row:
+matrix_browser:
   - image_path: /assets/images/screenshot1.png
-    alt: "Matrix Browser"
-    title: "Matrix Browser"
-    excerpt: "A 3D VR app to browse thru organized spaces"
-  - image_path: /assets/images/matrix-cloud.png
-    alt: "Matrix Cloud"
-    title: "Matrix Cloud"
-    excerpt: "A spatially modelled storage layer for organized spaces"
-  - image_path: /assets/images/matrix-hovercraft.png
-    alt: "Matrix Hovercraft"
-    title: "Matrix Hovercraft"
-    excerpt: "A personal software container, capable of converting content feeds into organized spaces"
+    alt: "Organized Space"
+  - image_path: /assets/images/screenshot3.png
+    alt: "Raw feed"
+  - image_path: /assets/images/screenshot2.png
+    alt: "Service providers buildings"
+
+matrix_cloud:
+  - image_path: /assets/images/access2.png
+    alt: "Buildings"
+  - image_path: /assets/images/access1.png
+    alt: "Composite building"
+  - image_path: /assets/images/access3.png
+    alt: "Building servers"
+
+matrix_hovercraft:
+  - image_path: /assets/images/processing1.png
+    alt: "Resident hackers"
+  - image_path: /assets/images/processing3.png
+    alt: "Processing flow"
+  - image_path: /assets/images/processing2.png
+    alt: "Hovercraft powering resident hackeres & data-pipes"
+
 feature_row2:
   - image_path: /assets/images/feeds.png
     alt: "twitter feed"
@@ -44,14 +55,6 @@ feature_row4:
     title: "What if you could browse through your feeds just as you shop in your supermarket?"
     excerpt: "After a few times, your mind will learn how things are organized, so you'll be able to find & discover the information you want in seconds, without missing a thing."
 
-intro:
-  - image_path: /assets/images/fcs.png
-    alt: "Form-convey-Spirit"
-    title: "Hey, welcome to our project"
-    excerpt: "If you're like us, you probably feel every day the pain of not coping with the amount of information you receive from your content feeds (email, slack, twitter, blogs &c).
-We believe the problem starts with **the interface**, so we're building a different interface powered by a new **consumption layer** over the web.
-Here's some slides describing the problem & how we're trying to solve it."
-
 continue_to_developers:
   - url: "/developers"
 ---
@@ -69,23 +72,71 @@ continue_to_developers:
 
 <a name="about_text" width="270px"></a>
 
-{% include feature_row id="intro" type="left" %}
+<img src="/assets/images/take3.jpg" width="100%"></img>
+<h2>Hey, welcome to our project</h2>
+<ul>
+<li>Everyday we receive much more information than we can possibly process & consume, causing us to miss valuable information & fail to create value from the information at our disposal.
+<li>This problem, called <strong>Information Overload</strong>, cannot be fixed in the current interface of the Web / Mobile Apps, because they weren't designed for dealing with the amounts of data we have today.
+<li>We are building a new layer over the Web, based on new abstractions that fundamentally address the core aspects of this problem:
+  <ul>
+    <li>the <a href=#core_aspects_interface>interface model</a>
+    <li>the <a href=#core_aspects_access>access model</a>
+    <li>the <a href=#core_aspects_processing>processing model</a>
+  </ul>
+</ul>
 
-<h2 align="left">The Problem:</h2>
+<a name="core_aspects_interface" width="270px"></a>
+<h2>The Interface Model</h2>
+<ul>
+<li> The current way we consume information is broken because it's based on an interface that isn't effective for large amounts of information.
+<ul>
+<li> The way we receive updates from Web sites & Mobile apps today, is based on an <strong>Assorted Feed</strong> - items arrive in a semantically random order, & we consume them sequentially, until we find something that interests us.
+<li> This interface is just like the baggage carousel you use in airports, which can only work if you have a few dozen items, but cannot be effective for thousands of items.
+<li> There exist interfaces in real-life that do allow you to find & discover a few items of interest out of thousands of items, for example, supermarkets or stores, where items are organized in a space, which you learn over time & become very efficient in navigating & consuming.
+</ul>
+<li> The Web Wide Matrix uses the <strong>Organized Space</strong> interface as its underlying abstraction, allowing users to consume much more information in much less time.
+</ul>
+{% include feature_row id="matrix_browser"%}
+
+
+<a name="core_aspects_access" width="270px"></a>
+<h2>The Access Model</h2>
+<ul>
+<li> Data & information is scattered in many islands today, making it difficult to discover, access, process & aggregate it.
+<ul>
+  <li> Many data providers today offer an API interface to their data, based on the REST guidelines.
+  <li> However, this access model wasn't designed for the amounts of information we have today, & doesn't provide us with an easy way to discover, process, combine & aggregate large amounts of information.
+</ul>
+<li> The Web Wide Matrix offers a completely new abstraction for storing, organizing & accessing data, based on a unified spatial model of <strong>Composite Buildings</strong>.
+<li> This new abstraction provides a simple standard way to access any piece of data in the world, enabling easy discovery, processing & aggregation of data.
+</ul>
+{% include feature_row id="matrix_cloud"%}
+
+
+<a name="core_aspects_processing" width="270px"></a>
+<h2>The Processing Model</h2>
+<ul>
+<li> Every time an organization needs to process some big set or stream of data, it needs to invest a big effort in developing a full proprietary solution for processing this type of data for the organization needs.
+<li> This takes a lot of time & resources, so only big companies can afford to build such solutions, & only for some specific data.
+<li> This is similar to the situation we had before the introduction of the Web - it was very difficult to enable access between the computers of 2 organizations, because there wasn't a common abstraction & standard easy way to do that.
+<li> The Web Wide Matrix introduces a new abstraction for processing large amounts of information, that tries to do what the Web did: make it dead simple & easy for anyone to process any type of data.
+<li> This abstraction is based on generic workers that are given Training Courses for processing data, which will be available in common marketplaces. These Training Courses are so easy to develop, that even your grandma or 8 y/o will be able to build them for accommodating their specific data or needs.
+</ul>
+{% include feature_row id="matrix_hovercraft"%}
+
+
+<h2 align="left">Learn more on the underlying problem:</h2>
 <script async class="speakerdeck-embed" data-id="6e7e73dea2c34fe9afd2b2f8da624a22" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 {% include youtube-link.html id="-lwkoSfXUGs" %}
 
 <hr>
-<h2 align="left">The Matrix Medium:</h2>
+<h2 align="left">Learn more on the Web Wide Matrix solution:</h2>
 <script async class="speakerdeck-embed" data-id="8fdc1c3b76ba4dc181a986da0ca8bb38" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 {% include youtube-link.html id="mIIwTcQjuRU" %}
 
 <hr>
 
-<h1 align="center">Our current projects:</h1>
 
-
-{% include feature_row %}
 
 {% include feature_row id="continue_to_developers" type="center" %}
