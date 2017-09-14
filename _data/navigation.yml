@@ -27,3 +27,14 @@ dev_docs:
         url: https://github.com/WebWideMatrix/webwidematrix-poc
       - title: "UX Mocks"
         url: /ux-mocks
+
+interview_sections:
+  - title: Interview
+    url: /interview-with-udi
+    children:
+      - title: "The problem"
+        url: /interview-with-udi#the-problem
+      - title: "The idea"
+        url: /interview-with-udi#the-idea
+      - title: "Use cases"
+        url: /interview-with-udi#use-cases
