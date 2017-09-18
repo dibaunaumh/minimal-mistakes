@@ -9,7 +9,7 @@
 locale                   : "en"
 title                    : "Web Wide Matrix"
 title_separator          : "-"
-name                     : "The Wachowski groupoid"
+name                     : "W2M groupoid"
 description              : "Homepage of the Web Wide Matrix: an initiative to create a consumption layer over the web"
 url                      : "http://webwidematrix.org"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -77,7 +77,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "WebWideMatrix groupoid"
+  name             : "W2M groupoid"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "The open-source organization developing the Web-Wide-Matrix."
   location         : "Boston, Massachusetts"

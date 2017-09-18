@@ -80,7 +80,7 @@ That’s what we want to build, tho obviously in bits & not atoms - VR & not rea
 
 ### Use cases
 
-*DN*: interesting. I have another question: what are basically the use-cases. Who do you think - besides yourself - will use it & for what purpose?
+*DN*: interesting. I have another question: what are basically the use-cases. Who do you think may want to use this - besides yourself - & for what purpose?
 
 *UB*: Lets start with actual important stuff. There are people whose work is to analyze huge streams of information or data, & find stuff that requires stuff that requires attention & handling. So one example would be the people that need to analyze streams of events related to security in order to say: here's a real security breach that we need to handle right now. These security analysts need to go over & analyze streams of incidents or events. Unfortunately, the amounts of data they need to process, is horrendous. And they actually don't use much visualization, I think because they need to see the actual data & not an aggregation or visual summary.
 
@@ -88,7 +88,7 @@ But, I believe that when applying the Web Wide Matrix to this problem, the full 
 
 *DN*: bad metaphor, Udi.
 
-*UD*: I can tell you, if I see a stream of millions of lines of text that all look the same, or on the other hand see them as different objects represented their meaning in a big space, I think I will be able to find the things that are of interest to me much better in the organized space, especially if I navigated this space so many times, so that I know that if something pops up in a certain area, I know what it is just because of its location.
+*UB*: I can tell you, if I see a stream of millions of lines of text that all look the same, or on the other hand see them as different objects representing their meaning in a big space, I think I will be able to find the things that are of interest to me much better in the organized space, especially if I navigated this space so many times, so that I know that if something pops up in a certain area, I know what it is just because of its location.
 There are real big advantages in leveraging those 2 human capabilities - the Top-Sight Vision & the Spatial Memory - that will analysts do their work much more effectively, that's my hypothesis, not yet put to test - I didn't experiment it yet.
 
 Now, there are many others that do similar work. There are analysts of operations log files, say of data-center server farms. There are analysts that go over market or trading or sales data. So in the work of all those people that need to consume all this information, I believe the Web Wide Matrix could be transformative.
@@ -99,12 +99,25 @@ Now, there are many others that do similar work. There are analysts of operation
 
 *DN*: I didn't think about it that way.
 
-*UB*: Another use-case is for individuals or organizations that need to meta-learn from a large corpus of knowledge or information, basically, to extract insights by aggregating a lot of texts. An obvious example is when a municipality or corporate wants to extract insights or ideas from a large open-ended survey. Another more concrete example would be a bio startup that needs to extract information on correlations between genes & diseases out of hundreds of thousands of research papers. Just going over all of these text documents would take a team of people many days. But if you could have a team of smart bots that will analyze, aggregate & organize them in a large space where you can see all the aggregated relations between genes & diseases, you'll be able to quickly understand & utilize the insights from this large corpus of texts, basically, find the genes correlations that are most interesting to pursue. Instead of having a team of people working on this for days, it can take one person less than an hour.
+*UB*: Another use-case is for individuals or organizations that need to meta-learn from a large corpus of knowledge or information, basically, to extract insights by aggregating a lot of texts. An obvious example is when a municipality or corporate wants to extract insights or ideas from a large open-ended survey. Another more concrete example would be a biotechnology startup developing some devices for diagnosing diseases, that needs to extract information on correlations between genes & mRNA's out of hundreds of thousands of research papers. Just going over all of these text documents would take a team of people many days. But if you could have a team of smart bots that will analyze, aggregate & organize them in a large space where you can see all the aggregated relations between different genes & mRNA's, you'll be able to quickly understand & utilize the insights from this large corpus of texts, basically, find the genes correlations that are most interesting to pursue. Instead of having a team of people working on this for days, it can take one person less than an hour.
 
-*DN*: But it surely takes time to teach these bots how to extract correlations between genes & diseases from research papers. It's not trivial to understand text & classify whether a mention of a gene & a disease is actually a description of a positive correlation found between them.
+*DN*: Yes, but it's possible to write software today to process all these research papers & extract these correlations.
 
-*UB*: Very true, but that's why the training of these bots is done using very simple documents - training courses - that provide the seed knowledge for doing this job. Once there is a large repository of such training courses, you can quickly find ones that answer your needs, or almost answer your need, & just tweak them a bit to do the job. I usually compare it to HTML - the language used to write web pages. Since it's a very simple language, people were quickly able to develop web sites for any purpose. Having the ability to view the source of Web sites you encounter, also helped people to take examples & tweak them to produce what they need.
+*UB*: But you'll need to write this sophisticated software, which will again take a team of engineers a few days or weeks to develop. The idea of the Web Wide Matrix is that information is only partially-useful if it can't be processed, so we're trying to make this processing as easy & seamless as it is to just access it. You'll have a team of bots that will do the processing for you, & you'll just need to inform them how you want the information to be analyzed & organized.
 
-*DN*: This is also the case with coding in general - programmers that needs to perform a certain task, usually quickly search & copy an example from open-source repositories or Q&A sites, and modify it to fit their needs.
+### Teaching bots to process information for you
 
-*UB*: Exactly, the plan is to have a large repository of these training courses documents, that you can quickly search & utilize to come up with a course that trains your team of bots to meet your needs. & the key here is that the course only provides the seed knowledge to get them started - once they start generating the organized spaces, you can provide them with feedback that will improve their training & make the organized spaces even more fitting to your exact needs.
+*DN*: But it surely takes time to teach these bots how to extract correlations between genes & an mRNA from research papers. It's not trivial to understand text & classify whether a mention of a gene & a disease is actually a description of a positive correlation found between them.
+
+*UB*: Very true, but that's why the knowledge for training these bots to perform their task is done using very simple documents - we call them training courses - that provide the seed knowledge for doing this job, in a very high-level manner. Once there is a large repository of such training courses, you can quickly find ones that answer your needs, or almost answer your need, & just tweak them a bit to do the job. I usually compare it to HTML - the language used to write web pages. Since it's a very simple language, people were quickly able to develop web sites for any purpose. Having the ability to view the source of Web sites you encounter, also helped people to take examples & tweak them to produce what they need.
+
+*DN*: This is also the case with coding in general - programmers that needs to perform a certain task, usually do a quick search to find some good example on the Web, and then just modify it to fit their needs.
+
+*UB*: Exactly, the plan is to have a large repository of these training courses documents, that you can quickly search & utilize to come up with a course that trains your team of bots to meet your needs. & the key here is that the courses only provide the seed knowledge to get them started - once they start generating the organized spaces, you can provide them with feedback, that will cause them to explore more options to improve their training & make the organized spaces even more fitting to your exact needs.
+
+
+### Architecture
+
+*DN*: OK, so can you tell me a bit the architecture of the processing & these teams of bots?
+
+*UB*: A core part of the Web Wide Matrix, is that we change the interface for effectively consuming information, but this change depends on 2 underlying changes. The 1st is the introduction of a an abstraction layer over the web, that enables uniform access to information, for both humans & machines. & the 2nd enables the seamless processing of this information, as an integral part of the access layer.
