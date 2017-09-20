@@ -43,8 +43,6 @@ This organization will define the specs of the Web-Wide-Matrix & deliver the ini
 
 We're currently working on a [proof-of-concept](https://github.com/WebWideMatrix/webwidematrix-poc) of the Matrix cloud & hovercraft.
 
-The 1st milestone delivery of the matrix is planned for the 2nd half of 2017.
-
 
 ### Join us
 

@@ -1,9 +1,9 @@
 ---
-title: "Interview with Udi Bauman"
+title: "Interview with Udi"
 sub-title: By Dibau Naum h
 layout: single
-permalink: /interview-with-udi
-date: 2017-09-08T00:06:00-00:00
+permalink: /blog/interview-with-udi
+date: 2017-09-20T00:06:52-00:00
 sidebar:
   nav: "interview_sections"
 ---
@@ -103,9 +103,9 @@ Now, there are many others that do similar work. There are analysts of operation
 
 *DN*: Yes, but it's possible to write software today to process all these research papers & extract these correlations.
 
-*UB*: But you'll need to write this sophisticated software, which will again take a team of engineers a few days or weeks to develop. The idea of the Web Wide Matrix is that information is only partially-useful if it can't be processed, so we're trying to make this processing as easy & seamless as it is to just access it. You'll have a team of bots that will do the processing for you, & you'll just need to inform them how you want the information to be analyzed & organized.
+### Processing content
 
-### Teaching bots to process information for you
+*UB*: But you'll need to write this sophisticated software, which will again take a team of engineers a few days or weeks to develop. The idea of the Web Wide Matrix is that information is only partially-useful if it can't be processed, so we're trying to make this processing as easy & seamless as it is to just access it. You'll have a team of bots that will do the processing for you, & you'll just need to inform them how you want the information to be analyzed & organized.
 
 *DN*: But it surely takes time to teach these bots how to extract correlations between genes & an mRNA from research papers. It's not trivial to understand text & classify whether a mention of a gene & a disease is actually a description of a positive correlation found between them.
 
@@ -115,9 +115,30 @@ Now, there are many others that do similar work. There are analysts of operation
 
 *UB*: Exactly, the plan is to have a large repository of these training courses documents, that you can quickly search & utilize to come up with a course that trains your team of bots to meet your needs. & the key here is that the courses only provide the seed knowledge to get them started - once they start generating the organized spaces, you can provide them with feedback, that will cause them to explore more options to improve their training & make the organized spaces even more fitting to your exact needs.
 
+*DN*: OK. I think I get the main function of this thing - converting huge streams of content into an organized 3D space, using a team of AI bots that get trained to process the data & generate this 3D space. And I think I get your argument that this new interface will be more effective for consuming information. I must say, however, that I don't get how this magic is achieved, can you describe the architecture that enables this to work?
 
 ### Architecture
 
-*DN*: OK, so can you tell me a bit the architecture of the processing & these teams of bots?
+*UB*: A core part of the Web Wide Matrix, is that we change the interface for effectively consuming information, but this change depends on 2 underlying changes. The 1st is the introduction of a an abstraction layer over the web, that enables uniform access to information, for both humans & machines. & the 2nd enables the seamless processing of this information, as an integral part of the access layer, which results in these organized 3D spaces.
 
-*UB*: A core part of the Web Wide Matrix, is that we change the interface for effectively consuming information, but this change depends on 2 underlying changes. The 1st is the introduction of a an abstraction layer over the web, that enables uniform access to information, for both humans & machines. & the 2nd enables the seamless processing of this information, as an integral part of the access layer.
+*DN*: Abstraction layer over the Web? What do you mean by that?
+
+*UB*: OK. So to access content on the Web, you need to connect to many Web sites, each having its own API interface, its own content format &c. This makes it difficult for the teams of smart bots to both discover & easily process & understand the content. So we wanted to introduce this abstraction layer that basically pipe the content from the Web into a different model that's easier to process. Basically, we wanted to make the interface of consuming information for machines more effective, just as we're making the interface for humans more effective, & we do that by applying the concept of organized space to the whole Web, just as we apply it to a single stream of content.
+
+*DN*: I don't understand - why would a 3D interface to the Web help machines process it?
+
+*UB*: Well, a 3D interface is how we perceive the world, & it's based on the concept of space, where things are located at some coordinates, & we are able to sense them, move them around & store them in an organized manner. Think of a group of baboons looking for food. The Web today is like a giant locker room, & the baboons need to open each one of them & make sense of what's exactly the thing inside them & whether it's food or not. On the other hand, if you convert this locker room into a house or a supermarket, the baboons will have a look at each room or department, figure out which rooms are the most likely to have food in, & quickly discover the food they like & eat it. All this just because you applied the concept of Space - things are located & organized - & Sensing of content - things look & smell differently & you can perceive them.
+
+*DN*: you're saying that the smart bots use vision to process information?
+
+*UB*: not exactly, I'm saying that the Matrix is a spatial paradigm for accessing information. Each piece of information has location, & an external indication of its contents that allows it to be sensed, just like appearance & smell. We achieve that by changing the metaphor used for representing information today, which is the metaphor of files & folders - text documents piled inside folders, piled together. This metaphor leads to the current way people consume information - they read paper by paper, web page by web page, email by email. There's no concept of space.
+So we needed a different metaphor, & came up with the concept of Buildings - these composite storage units we live in.
+
+*DN*: I'm not following - files are the way we store information in computers. The Web is a protocol for sending information. The Matrix is using something else? Buildings?
+
+*UB*: The existing metaphors are the way we imagine & reason with stuff - visualize them in our heads. The metaphor also influences the interface & functionality of objects. Files & folders, & how they are communicated over the Web was nice, but doesn't cut the job anymore. We decided on a different metaphor, for the things that contain information.
+Buildings are composite storage units, located in a 3D space. In the Web Wide Matrix, everything is a building. They are composite, because they can be infinitely nested: for example, you have a building with multiple floors, each floor has apartments with rooms, each room can have closets & drawer cabinets. Each one of them has floors & drawers. Each one of them can have boxes inside it with further compartments & so on. We call each one of these nested containers Buildings, & their content is information. So we can have an atomic building, that just contains some information, & have external attributes that inform how it is sensed, & we have composite buildings, that have floors, & rooms, each one containing further buildings.
+This is different than files & folders, because every building has an address - it's coordinates in the space, in respect to other buildings, & every building can be sensed.
+
+
+(To be continued.)
