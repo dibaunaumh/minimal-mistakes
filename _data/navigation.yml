@@ -1,7 +1,35 @@
 # main links
 main:
+  - title: "About"
+    url: /about
   - title: "Developers"
     url: /developers
+
+
+about_docs:
+  - title: About
+    url: /about
+    children:
+      - title: "Access model"
+        url: /about#access-model
+      - title: "Processing model"
+        url: /about#processing-model
+      - title: "Interface model"
+        url: /about#interface-model
+
+  - title: Presentations
+    url: /about#presentations
+    children:
+      - title: "The problem"
+        url: /about#the-problem
+      - title: "The solution"
+        url: /about#the-solution
+
+  - title: Blog
+    url: /about#blog
+    children:
+      - title: "Interview with Udi"
+        url: /blog/interview-with-udi
 
 
 dev_docs:
@@ -27,3 +55,18 @@ dev_docs:
         url: https://github.com/WebWideMatrix/webwidematrix-poc
       - title: "UX Mocks"
         url: /ux-mocks
+
+interview_sections:
+  - title: Interview
+    url: /blog/interview-with-udi
+    children:
+      - title: "The problem"
+        url: /blog/interview-with-udi#the-problem
+      - title: "The idea"
+        url: /blog/interview-with-udi#the-idea
+      - title: "Use cases"
+        url: /blog/interview-with-udi#use-cases
+      - title: "Processing content"
+        url: /blog/interview-with-udi#processing-content
+      - title: "Architecture"
+        url: /blog/interview-with-udi#architecture
